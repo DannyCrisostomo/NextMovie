@@ -1,7 +1,3 @@
-¡Claro, aquí tienes una versión más colorida con emojis!
-
----
-
 # NextMovie 🎬
 
 NextMovie es una plataforma web diseñada para facilitar la visualización de videos en línea. Esta aplicación ofrece una variedad de características y funciones para mejorar la experiencia del usuario. A continuación se detallan las principales características y cómo utilizarlas.
