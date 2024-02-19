@@ -28,10 +28,10 @@ NextMovie es una plataforma web diseñada para facilitar la visualización de vi
 
 ## Redirección a la página 🔗
 
-Para acceder a NextMovie, visita [NextMovie](https://example.com/nextmovie).
+Para acceder a NextMovie, visita [NextMovie](https://nextmoviedvcc.000webhostapp.com/).
 
 ## Contacto y soporte 📞
 
-Para obtener más información sobre NextMovie o recibir soporte técnico, los usuarios pueden ponerse en contacto con nuestro equipo de atención al cliente en support@nextmovie.com.
+Para obtener más información sobre NextMovie o recibir soporte técnico, los usuarios pueden ponerse en contacto con nuestro equipo de atención al cliente en soporte@nextmovie.com.
 
 ---
