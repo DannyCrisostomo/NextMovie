@@ -1,0 +1,315 @@
+@media screen and (min-width:200px) and (max-width:499px) {
+
+    .abrir-menu,
+    .cerrar-menu {
+        font-weight: 600;
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu img {
+        width: 1.7pc;
+    }
+
+    .cerrar-menu {
+        color: #ff0062;
+    }
+
+    nav button h1 {
+        padding: 8px 16px;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        background: rgba(0, 238, 255, 0.486);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 0 0 200vh rgba(0, 0, 0, .5);
+    }
+
+    .nav ul {
+        padding: 40px 60px;
+        width: 100%;
+        background: black;
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+
+    /*fin hamburguesa*/
+    .genero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .anime .estreno p {
+        width: 24%;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .descripcion p {
+        font-size: 16px;
+        color: white;
+        height: 150px;
+        overflow: auto;
+    }
+
+    .video a img {
+        width: 167px;
+        height: 90px;
+        border-radius: 5px;
+    }
+
+    .name h1 {
+        font-size: 20px;
+    }
+
+    .anime {
+        width: 100%;
+        height: 100%;
+    }
+    .sub-anime {
+    width: 100%;
+    height: 90%;
+    padding: 5px 0px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:767px) {
+
+    .abrir-menu,
+    .cerrar-menu {
+        font-weight: 600;
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu img {
+        width: 1.7pc;
+    }
+
+    .cerrar-menu {
+        color: #ff0062;
+    }
+
+    nav button h1 {
+        padding: 8px 16px;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        background: rgba(0, 238, 255, 0.486);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 0 0 200vh rgba(0, 0, 0, .5);
+    }
+
+    .nav ul {
+        padding: 40px 60px;
+        width: 100%;
+        background: black;
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+
+    /*fin hamburguesa*/
+    .genero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .anime .estreno p {
+        width: 24%;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .descripcion p {
+        font-size: 16px;
+        color: white;
+        height: 150px;
+        overflow: auto;
+    }
+
+    .video a img {
+        width: 167px;
+        height: 90px;
+        border-radius: 5px;
+    }
+
+    .name h1 {
+        font-size: 20px;
+    }
+}
+
+/*Para celular posicion horizontal y para table posicion vertical*/
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .abrir-menu,
+    .cerrar-menu {
+        font-weight: 600;
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu img {
+        width: 1.7pc;
+    }
+
+    .cerrar-menu {
+        color: #ff0062;
+    }
+
+    nav button h1 {
+        padding: 8px 16px;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        background: rgba(0, 238, 255, 0.486);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 0 0 200vh rgba(0, 0, 0, .5);
+    }
+
+    .nav ul {
+        padding: 40px 60px;
+        width: 100%;
+        background: black;
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+
+    /*fin hamburguesa*/
+    .genero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .anime .estreno p {
+        width: 24%;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .descripcion p {
+        font-size: 16px;
+        color: white;
+        height: 150px;
+        overflow: auto;
+    }
+
+    .video a img {
+        width: 167px;
+        height: 90px;
+        border-radius: 5px;
+    }
+
+    .name h1 {
+        font-size: 20px;
+    }
+}
+
+/*Para table posicion horizontal y pantalla pequeÃ±a des escritorio*/
+@media screen and (min-width:992px) and (max-width:1199px) {
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .body {
+        height: 100%;
+    }
+}
+
+/*Para pantallas mas grandes de escritorio*/
+@media screen and (min-width:1200px) {
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .body {
+        height: 100%;
+    }
+}

@@ -1,0 +1,204 @@
+::-webkit-scrollbar{
+    width:8px;
+    background: var(---principal);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(255, 0, 98);
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(255, 255, 255);
+}
+:root{
+    ---principal:#000000e3;
+    ---blackligth:rgba(0, 0, 0, 0.910);
+}
+html{
+    scroll-behavior: smooth;
+  }
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+/*Navbar*/
+header {
+    height: 15%;
+}
+.logo {
+    font-weight: 700;
+    font-size: 2pc;
+    color: rgb(255, 255, 255);
+}
+.logo span{
+    color: #E91E63;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+/*Buscador*/
+.buscar{
+    display:flex;
+    border: 2px solid #E91E63;
+    border-radius: 7px;
+    height: 45px;
+}
+.icono{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+.abrir-menu,.cerrar-menu {
+    display: none;
+}
+#search{
+    font-size: .8pc;
+    font-weight: 700;
+    color:  #ffffffec;
+    background: transparent;
+    width: 100%;
+}
+.login{
+    padding:10px 11px;
+    background: #e91e62c4;
+    font-size: 1pc;
+    font-weight: 700;
+}
+
+/*Anime Seleccionado*/
+.seccion{
+    width: 100%;
+}
+.imagen{
+    width: 100%;
+    height: 100vh;
+    background: url(../../img/anime/Tejina-Senpai.jpg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.fondo{
+    background-color: rgb(17 24 41 / 72%);;
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+.anime{
+    width: 100%;
+    height: 100%;
+}
+.anime .estreno{
+    width: 100%;
+}
+.anime .estreno p{
+    width: 10%;
+    padding: 2px 0px;
+    font-size: 12px;
+    text-align: center;
+    background: rgb(250, 250, 111);
+    border-radius: 3px;
+}
+
+.sub-anime{
+    width: 100%;
+    height: 100%;
+    padding: 5px 0px;
+}
+.sub-anime span{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+.genero span {
+    font-size: 12px;
+    background: #be3259;
+    color: white;
+    border-radius: 7px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-inline: .5rem;
+    text-align: center;
+}
+.genero .generos{
+    --tw-bg-opacity: 1;
+    background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(20 83 45 / var(--tw-text-opacity));
+}
+.descripcion p{
+    font-size: 16px;
+    color: white;
+}
+
+.genero{
+    padding: 8px 0px;
+    display: flex;
+    gap: 20px;
+}
+.descripcion{
+    height: 37%;
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 6px;
+    line-height: 1.49rem;
+}
+.datos {
+    display: flex;
+    height: 38%;
+    gap: 6px;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+.name{
+    background-color: var(---principal2);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding: 30px 0px;
+
+}
+.name h1{
+    width: 92%;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    border-bottom: 3px solid #ff0059;
+}
+.video{
+    background-color: var(---principal2);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}   
+.video .video-contenedor{
+    padding: 20px 5px;
+    display: flex;
+    gap: 15px 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+}             
+.video .video-contenedor  a img {
+    width: 236px;
+    height: 138px;
+    border-radius: 3px;
+}

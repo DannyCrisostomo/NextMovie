@@ -1,0 +1,434 @@
+/*zoom 300-200*/
+@media screen and (min-width:0px) and (max-width:499px){
+    .navbar{
+        display:none;
+    }
+    .logo img {
+        width: 50px;
+    }
+    .menu{
+        width: 15px;
+        height: 15px;
+    }
+    .menu img{
+        width: 100%;
+        height: 100%;
+    }
+    .video {
+        width: max-content;
+        display: flex;
+        gap: 4px;
+        margin: 5px 0;
+    }
+    .video p {
+        border-radius: 10px;
+        font-size: 7px;
+        font-weight: 700;
+        padding: 0px 7px;
+    }
+    .imagen img{
+        width: 70%;
+    }
+}
+/**zoom 200-150/
+/*Para celular posicion vertical*/
+@media screen and (min-width:500px) and (max-width:767px){
+    .navbar{
+        display:none;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .menu{
+        width: 25px;
+        height: 25px;
+    }
+    .menu img{
+        width: 100%;
+        height: 100%;
+    }
+    .video {
+        width: max-content;
+        display: flex;
+        gap: 4px;
+        margin: 5px 0;
+    }
+    .video p {
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 5px 13px;
+    }
+    .imagen img{
+        width: 60%;
+    }
+}
+/**zoom 125-110/
+/*Para celular posicion horizontal y para table posicion vertical*/
+@media screen and (min-width:768px) and (max-width:991px){
+    .navbar{
+        display:none;
+    }
+    .logo img {
+        width: 120px;
+    }
+    .menu{
+        width: 35px;
+        height: 35px;
+    }
+    .menu img{
+        width: 100%;
+        height: 100%;
+    }
+    .video {
+        width: max-content;
+        display: flex;
+        gap: 4px;
+        margin: 5px 0;
+    }
+    .video p {
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 10px 15px;
+    }
+    .imagen img{
+        width: 60%;
+    }
+}
+/**zoom 100-90/
+/*Para table posicion horizontal y pantalla pequeña des escritorio*/
+@media screen and (min-width:992px) and (max-width:1199px){
+    .menu img{
+        display: none;
+    }
+    .imagen img{
+        width: 60%;
+    }
+    .logo img {
+        width: 130px;
+    }
+    a {
+        color: white;
+        font-size: 15px;
+    }
+    .imagen img{
+        width: 60%;
+    }
+    .video {
+        width: max-content;
+        display: flex;
+        gap: 4px;
+        margin: 5px 0;
+    }
+    .video p {
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 15px;
+    }
+    .imagen img{
+        width: 60%;
+    }
+}
+/*Para pantallas mas grandes de escritorio*/
+@media screen and (min-width:1200px){
+    .menu img{
+        display: none;
+    }
+    .imagen img{
+        width: 60%;
+    }
+    .logo img {
+        width: 130px;
+    }
+    a {
+        color: white;
+        font-size: 20px;
+    }
+    .imagen img{
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:200px) and (max-width:499px){
+    .abrir-menu,.cerrar-menu {
+        font-weight: 600;
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .abrir-menu img{
+        width: 1.7pc;
+    }
+    .cerrar-menu {
+        color: #ff0062;
+    }
+    nav button h1{
+        padding: 13px 16px;
+    }
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        background: rgba(0, 238, 255, 0.486);
+        position: absolute;
+        top: 0; left:0;
+        width: 100%;
+        box-shadow: 0 0 0 200vh rgba(0, 0, 0, .5);
+    }
+    .nav ul{
+        padding: 40px 60px;
+        width: 100%;
+        background: #000000c5;
+    }
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-list {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .nav-list li a {
+        color: #ecececec;
+    }
+
+    /*fin hamburguesa*/
+    .genero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .anime .estreno p {
+        width: 24%;
+    }
+    .descripcion {
+        width: 100%;
+    }
+    .descripcion p {
+        font-size: 16px;
+        color: white;
+        height: 150px;
+        overflow: auto;
+    }
+
+    .video a img {
+        width: 167px;
+        height: 90px;
+        border-radius: 5px;
+    }
+    .name h1 {
+        font-size: 20px;
+    }
+    .anime {
+        width: 100%;
+        height: 75%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:767px){    .abrir-menu,.cerrar-menu {
+    font-weight: 600;
+    display: block;
+    border: 0;
+    font-size: 1.25rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.abrir-menu img{
+    width: 1.7pc;
+}
+.cerrar-menu {
+    color: #ff0062;
+}
+nav button h1{
+    padding: 8px 16px;
+}
+.nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    background: rgba(0, 238, 255, 0.486);
+    position: absolute;
+    top: 0; left:0;
+    width: 100%;
+    box-shadow: 0 0 0 200vh rgba(0, 0, 0, .5);
+}
+.nav ul{
+    padding: 40px 60px;
+    width: 100%;
+    background: black;
+}
+.nav.visible {
+    opacity: 1;
+    visibility: visible;
+}
+.nav-list {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+}
+.nav-list li a {
+    color: #ecececec;
+}
+/*fin hamburguesa*/
+.genero{
+    display: flex;
+    flex-wrap: wrap;
+}
+.anime .estreno p {
+    width: 24%;
+}
+.descripcion {
+    width: 100%;
+}
+.descripcion p {
+    font-size: 16px;
+    color: white;
+    height: 150px;
+    overflow: auto;
+}
+
+.video a img {
+    width: 167px;
+    height: 90px;
+    border-radius: 5px;
+}
+.name h1 {
+    font-size: 20px;
+}
+}
+/*Para celular posicion horizontal y para table posicion vertical*/
+@media screen and (min-width:768px) and (max-width:991px){    .abrir-menu,.cerrar-menu {
+    font-weight: 600;
+    display: block;
+    border: 0;
+    font-size: 1.25rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.abrir-menu img{
+    width: 1.7pc;
+}
+.cerrar-menu {
+    color: #ff0062;
+}
+nav button h1{
+    padding: 8px 16px;
+}
+.nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    background: rgba(0, 238, 255, 0.486);
+    position: absolute;
+    top: 0; left:0;
+    width: 100%;
+    box-shadow: 0 0 0 200vh rgba(0, 0, 0, .5);
+}
+.nav ul{
+    padding: 40px 60px;
+    width: 100%;
+    background: black;
+}
+.nav.visible {
+    opacity: 1;
+    visibility: visible;
+}
+.nav-list {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+}
+.nav-list li a {
+    color: #ecececec;
+}
+
+/*fin hamburguesa*/
+.genero{
+    display: flex;
+    flex-wrap: wrap;
+}
+.anime .estreno p {
+    width: 24%;
+}
+.descripcion {
+    width: 100%;
+}
+.descripcion p {
+    font-size: 16px;
+    color: white;
+    height: 150px;
+    overflow: auto;
+}
+
+.video a img {
+    width: 167px;
+    height: 90px;
+    border-radius: 5px;
+}
+.name h1 {
+    font-size: 20px;
+}
+}
+/*Para table posicion horizontal y pantalla pequeÃƒÂ±a des escritorio*/
+@media screen and (min-width:992px) and (max-width:1199px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .body{
+        height: 100%;
+    }
+}
+/*Para pantallas mas grandes de escritorio*/
+@media screen and (min-width:1200px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .body{
+        height: 100%;
+    }
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+html{
+    scroll-behavior: smooth;
+  }
+/*Fondo*/
+header{
+    min-width: 100%;
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.459), hsla(342, 100%, 50%, 0.11)), url(../../img/source/login.jpg)no-repeat;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.404), hsla(335, 100%, 50%, 0.096)), url(../../img/source/login.jpg)no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    min-height: 100vh;  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .fondo{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.473);
+    width: 100%;
+    min-height: 100%;
+}
+/*logo*/
+.logo {
+    position: absolute;
+    padding: 20px 20px;
+    font-weight: 700;
+    font-size: 2pc;
+    color: rgb(255, 255, 255);
+}
+.logo span{
+    color: rgba(255, 0, 106, 1);
+}
+/*formulario*/
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.800), hsla(300, 0%, 0%, 0.800));
+    border-radius: 25px;
+    padding: 25px 50px;
+}
+
+.login-form span{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0px;
+}
+.login-form .input {
+    padding: 1rem;
+    margin-bottom: 16px;
+    background: rgba(51, 51, 51, 0.925);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    width: 100%;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.login-form .boton {
+    margin-top: 1.2rem;
+    color: rgb(252, 252, 252);
+    width: 100%;
+    padding: 1rem;
+    background: rgba(255, 0, 106, 1);
+}
+/*recuerdame*/
+.recuerdame{
+    display: flex;
+    gap: 30px;
+    padding: 20px 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.check {
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+.ayuda a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*redes*/
+.redes .contenedor{
+    display: flex;
+    gap: 10px;
+}
+.redes .contenedor a svg {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 100%;
+    border: 2px solid white;
+    color: white;
+}
+.redes .contenedor a .facebook:hover{
+    border: 2px solid rgb(0, 204, 255);
+    color: rgb(0, 255, 242);
+}
+.redes .contenedor a .twiter:hover{
+    border: 2px solid rgb(0, 102, 255);
+    color: rgb(0, 174, 255);
+}
+.redes .contenedor a .likendy:hover{
+    border: 2px solid rgb(0, 255, 115);
+    color: rgb(0, 255, 128);
+}
+.redes .contenedor a .git-hub:hover{
+    border: 2px solid rgb(255, 0, 106);
+    color: rgba(255, 0, 106, 0.747);
+}
+.redes .contenedor a .discord:hover{
+    border: 2px solid rgb(153, 0, 255);
+    color: rgb(166, 48, 235);
+}
+/*copy*/
+.copy {
+    padding: 5% 5%;
+}
+.copy p{
+    color: white;
+}

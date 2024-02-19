@@ -1,0 +1,85 @@
+@media screen and (min-width:0px) and (max-width:499px){
+    header {
+        background-position: center center;
+    }
+    .logo{
+        position: absolute;
+    }
+    .login-form {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px;
+        justify-content: center;
+    }
+    .login-form span {
+        font-size: 2.5rem;
+    }
+    .login-form .boton {
+        font-size: 15px;
+    }
+    .ayuda a , .check a{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:767px){   
+    header {
+        background-position: center center;
+    }
+    
+    .login-form {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px;
+        justify-content: center;
+    }
+    .login-form span {
+        font-size: 2.5rem;
+    }
+    .login-form .boton {
+        font-size: 1.7rem;
+    }
+    form input{
+        width: 70%;
+    }
+    .ayuda a , .check a{
+        font-size: 20px;
+    }
+}
+/*Para celular posicion horizontal y para table posicion vertical*/
+@media screen and (min-width:768px) and (max-width:991px){    
+    header {
+        background-position: center center;
+    }
+    .login-form span {
+        font-size: 3rem;
+    }
+    .login-form {
+        display: flex;
+        width: 70%;
+        height: 80vh;
+        justify-content: center;
+    }
+    .login-form .boton {
+        font-size: 1.7rem;
+    }
+    .ayuda a , .check a{
+        font-size: 20px;
+    }
+    form input{
+        width: 70%;
+    }
+}
+/*Para table posicion horizontal y pantalla pequeÃ±a des escritorio*/
+@media screen and (min-width:992px) and (max-width:1199px){
+    .login-form {
+        width: 40%;
+    }
+    .login-form .boton {
+        font-size: 1.2rem;
+    }
+}
+/*Para pantallas mas grandes de escritorio*/
+@media screen and (min-width:1200px){
+}
