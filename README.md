@@ -18,9 +18,21 @@ NextMovie es una plataforma web diseñada para facilitar la visualización de vi
 
 3. **Recuperación de cuenta:** En caso de olvidar la contraseña, los usuarios pueden recuperar su cuenta haciendo clic en el enlace "¿Olvidaste tu contraseña?" en la página de inicio de sesión. Se les pedirá que ingresen su dirección de correo electrónico y se les enviará un correo electrónico con instrucciones para restablecer su contraseña.
 
-## Presentación 🖼️
+## Capturas de pantalla 🖼️
 
-![NextMovie](https://example.com/nextmovie.jpg)
+![Screenshot 1](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_1.png)
+
+![Screenshot 2](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_2.png)
+
+![Screenshot 3](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_3.png)
+
+![Screenshot 4](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_4.png)
+
+![Screenshot 5](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_5.png)
+
+![Screenshot 6](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_6.png)
+
+![Screenshot 7](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_7.png)
 
 ## Redirección a la página 🔗
 
@@ -28,6 +40,6 @@ Para acceder a NextMovie, visita [NextMovie](https://nextmoviedvcc.000webhostapp
 
 ## Contacto y soporte 📞
 
-Para obtener más información sobre NextMovie o recibir soporte técnico, los usuarios pueden ponerse en contacto con nuestro equipo de atención al cliente en soporte@nextmovie.com.
+Para obtener más información sobre NextMovie o recibir soporte técnico, los usuarios pueden ponerse en contacto con nuestro equipo de atención al cliente en Soporte@nextmovie.com.
 
----
+
