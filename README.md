@@ -18,7 +18,9 @@ NextMovie es una plataforma web diseñada para facilitar la visualización de vi
 
 3. **Recuperación de cuenta:** En caso de olvidar la contraseña, los usuarios pueden recuperar su cuenta haciendo clic en el enlace "¿Olvidaste tu contraseña?" en la página de inicio de sesión. Se les pedirá que ingresen su dirección de correo electrónico y se les enviará un correo electrónico con instrucciones para restablecer su contraseña.
 
-## Capturas de pantalla 🖼️
+## Redirección a la página 🔗
+
+Para acceder a NextMovie, visita [NextMovie](https://nextmoviedvcc.000webhostapp.com/).
 
 ![Screenshot 1](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_1.png)
 
@@ -34,9 +36,6 @@ NextMovie es una plataforma web diseñada para facilitar la visualización de vi
 
 ![Screenshot 7](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_7.png)
 
-## Redirección a la página 🔗
-
-Para acceder a NextMovie, visita [NextMovie](https://nextmoviedvcc.000webhostapp.com/).
 
 ## Contacto y soporte 📞
 
